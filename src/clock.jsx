@@ -22,7 +22,7 @@ return(
                 {min<10?`0${min}`:min}
             </span>:
        <span className="second">{sec<10?`0${sec}`:sec} </span>
-       <p> {hou>=12?" pm":" am"}</p>
+       <p> &nbsp;{hou>=12?" pm":" am"}</p>
         </div>
     </div>
 
